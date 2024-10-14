@@ -10,9 +10,9 @@ gem "rails", "~> 8.0.0.beta1"
 gem 'pg' #, '~> 0.18'
 gem 'active_model_serializers'
 gem 'activerecord-reset-pk-sequence'
-
+gem 'bootsnap', require: false
 # Use Puma as the app server
-gem 'puma', '~>z 3.0'
+gem 'puma', '~> 3.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
