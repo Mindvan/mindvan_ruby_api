@@ -160,9 +160,9 @@ GEM
     json (2.7.2)
     jsonapi-renderer (0.2.2)
     language_server-protocol (3.17.0.3)
-    listen (3.0.8)
-      rb-fsevent (~> 0.9, >= 0.9.4)
-      rb-inotify (~> 0.9, >= 0.9.7)
+    listen (3.9.0)
+      rb-fsevent (~> 0.10, >= 0.10.3)
+      rb-inotify (~> 0.9, >= 0.9.10)
     logger (1.6.1)
     loofah (2.22.0)
       crass (~> 1.0.2)
@@ -359,7 +359,7 @@ DEPENDENCIES
   guard-bundler
   guard-rspec
   guard-rubocop
-  listen (~> 3.0.5)
+  listen (~> 3.9.0)
   pg
   puma (~> 3.0)
   rails (~> 8.0.0.beta1)
