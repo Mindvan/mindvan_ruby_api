@@ -214,7 +214,8 @@ GEM
       method_source (~> 1.0)
     psych (5.1.2)
       stringio
-    puma (3.12.6)
+    puma (6.4.3)
+      nio4r (~> 2.0)
     racc (1.8.1)
     rack (3.1.7)
     rack-session (2.0.0)
@@ -361,7 +362,7 @@ DEPENDENCIES
   guard-rubocop
   listen (~> 3.0.5)
   pg
-  puma (~> 3.0)
+  puma (~> 6.4)
   rails (~> 8.0.0.beta1)
   rails-controller-testing
   rspec-rails (~> 3.5)
